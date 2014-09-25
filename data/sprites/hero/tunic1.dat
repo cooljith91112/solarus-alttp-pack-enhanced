@@ -11,23 +11,23 @@ animation{
 animation{
   name = "boomerang1",
   src_image = "hero/boomerang.tunic.png",
-  frame_delay = 100,
+  frame_delay = 20,
   directions = {
-    { x = 0, y = 0, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 21, num_frames = 2 },
-    { x = 0, y = 24, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 21, num_frames = 2 },
-    { x = 0, y = 48, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 21, num_frames = 2 },
-    { x = 0, y = 72, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 21, num_frames = 2 },
+    { x = 0, y = 0, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 21, num_frames = 13 },
+    { x = 0, y = 24, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 21, num_frames = 13 },
+    { x = 0, y = 48, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 21, num_frames = 13 },
+    { x = 0, y = 72, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 21, num_frames = 13 },
   },
 }
 animation{
   name = "boomerang2",
   src_image = "hero/boomerang.tunic.png",
-  frame_delay = 100,
+  frame_delay = 20,
   directions = {
-    { x = 64, y = 0, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 21, num_frames = 2 },
-    { x = 64, y = 24, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 21, num_frames = 2 },
-    { x = 64, y = 48, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 21, num_frames = 2 },
-    { x = 64, y = 72, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 21, num_frames = 2 },
+    { x = 416, y = 0, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 21, num_frames = 13 },
+    { x = 416, y = 24, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 21, num_frames = 13 },
+    { x = 416, y = 48, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 21, num_frames = 13 },
+    { x = 416, y = 72, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 21, num_frames = 13 },
   },
 }
 animation{
@@ -333,10 +333,10 @@ animation{
   frame_delay = 100,
   frame_to_loop_on = 0,
   directions = {
-    { x = 192, y = 0, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 3 },
-    { x = 192, y = 32, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 3 },
-    { x = 192, y = 96, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 3 },
-    { x = 192, y = 128, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 3 },
+    { x = 432, y = 0, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 3 },
+    { x = 432, y = 32, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 3 },
+    { x = 432, y = 96, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 3 },
+    { x = 432, y = 128, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 3 },
   },
 }
 animation{
